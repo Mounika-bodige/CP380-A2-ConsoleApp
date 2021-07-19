@@ -27,4 +27,11 @@ namespace BreadmakerReport.Models
 
         public int stars { get; set; }
     }
+     public class Mydata
+    {
+        public double Reviews { get;  set; }
+        public double Average { get;  set; }
+        public double Adjust { get;  set; }
+        public string Title { get;  set; }
+    }
 }
